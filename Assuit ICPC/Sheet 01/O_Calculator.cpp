@@ -1,15 +1,25 @@
 #include<iostream>
 using namespace std;
 int main ()
-{int A,B;
- cin>>A>>B;
+{int A,B;char S;
+ cin >> A >> S >> B; 
 
- cout<<"A"<<"+"<<"B"<<'\n'<<A+B<<'\n';
- cout <<"A" << "-" <<"B" <<'\n'<<A-B <<'\n';
- cout <<"A" << "*" <<"B" <<'\n'<<A*B <<'\n';
- cout <<"A" << "/" <<"B" <<'\n'<<A/B <<'\n';
- 
- 
- 
 
+ if(S == '+'){
+ 
+    cout << A + B <<'\n';
+ }
+ else if(S == '-')
+ {
+    cout << A - B <<'\n';
+
+ }
+else if(S == '*')
+{
+ cout << A * B <<'\n';
 }
+ else if(S == '/')
+ {
+cout << A / B <<'\n';
+   }
+ }
