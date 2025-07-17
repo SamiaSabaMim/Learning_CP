@@ -18,5 +18,5 @@ int main() {
         }
     }
     cout << minValue << " " << pos + 1 << endl;
-    return 0;
+   
 }
